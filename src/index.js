@@ -1,10 +1,8 @@
 
 /** Index.js */
 
-function add(a,b) {
+var calculator = require('./calculator')
 
-    return a+b;
-
+module.exports = {
+    calculator:calculator
 }
-
-module.exports = add;
