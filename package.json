@@ -1,7 +1,7 @@
 {
   "name": "mocha-testing",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mocha teting sample project",
   "main": "index.js",
   "directories": {
     "test": "test"

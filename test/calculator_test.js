@@ -15,4 +15,12 @@ describe("Calculator",function(){
 
         assert.equal(10,calculator.add(5,5))
     })
+
+    it("Should multiply ",function(){
+        assert.equal(10,calculator.multiply(5,2))
+    })
+
+    it("Should divide",function(){
+        assert.equal(2,calculator.divide(10,5))
+    })
 })

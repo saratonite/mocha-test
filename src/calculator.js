@@ -12,14 +12,10 @@ function add(a,b){
 
 function subtract(a,b){
 
-    return a-b
+    return a-b;
 }
 
 
-module.exports = {
-    add:add,
-    subtract:subtract
-}
 
 /**Multiply */
 
@@ -33,4 +29,11 @@ function divide(a,b){
 
     return a/b;
 
+}
+
+module.exports = {
+    add:add,
+    subtract:subtract,
+    multiply:multiply,
+    divide:divide
 }
